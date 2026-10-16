@@ -27,7 +27,7 @@
   <a href="https://shuaizhang7.github.io/latent-bridge-page/"><img src="https://img.shields.io/badge/Project-Page-2980b9" alt="Project page"></a>
   <!-- Add the arXiv URL when available. -->
   <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b" alt="arXiv: coming soon">
-  <a href="#code-release"><img src="https://img.shields.io/badge/Code-Coming%20Soon-f39c12" alt="Code: coming soon"></a>
+  <img src="https://img.shields.io/badge/Weights-Coming%20Soon-f39c12" alt="Model weights: coming soon">
 </p>
 
 ## Introduction
