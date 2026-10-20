@@ -1,0 +1,5 @@
+{
+  "route": "vrae",
+  "model": {"dim": 1024, "hidden_dim": 2048, "temporal_heads": 16, "compression_ratio": 4},
+  "loss": {"mse_weight": 1.0, "cosine_weight": 1.0, "temporal_delta_weight": 0.0, "temporal_relation_weight": 0.0}
+}

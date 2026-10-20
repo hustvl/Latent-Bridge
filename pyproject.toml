@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latent-bridge-geometry"
+version = "0.1.0"
+description = "WAN and V-RAE latent bridges for full-sequence geometry decoding"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+dependencies = ["torch>=2.6", "numpy>=1.26", "scipy>=1.11"]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "build", "av>=12", "Pillow>=10"]
+prepare = ["av>=12", "Pillow>=10", "einops>=0.7"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["latent_bridge*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "scripts"]

@@ -1,0 +1,9 @@
+include LICENSE NOTICE README.md README.zh-CN.md
+include train.py infer.py evaluate.py export_checkpoint.py
+include prepare_data.py
+include assets/method-overview.png
+recursive-include docs *.md
+recursive-include configs *.json
+recursive-include examples *.jsonl
+recursive-include scripts *.py
+recursive-include tests *.py

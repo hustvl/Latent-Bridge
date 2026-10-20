@@ -1,0 +1,6 @@
+{
+  "route": "wan",
+  "omega_checkpoint": "weights/omega.pt",
+  "wan_vae_source": "third_party/Wan2.1/wan/modules/vae.py",
+  "wan_vae_checkpoint": "weights/Wan2.1_VAE.pth"
+}

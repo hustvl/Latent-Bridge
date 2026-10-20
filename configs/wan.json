@@ -1,0 +1,14 @@
+{
+  "route": "wan",
+  "model": {
+    "latent_channels": 16, "latent_frames": 13,
+    "latent_height": 70, "latent_width": 70,
+    "temporal_compression": 4, "output_frames": 49,
+    "grid_height": 35, "grid_width": 35,
+    "hidden_dim": 512, "output_dim": 1024,
+    "num_blocks": 6, "num_heads": 8, "mlp_ratio": 4,
+    "spatial_kernel_size": 7, "temporal_chunk_size": 256,
+    "use_checkpoint": true, "output_scale_init": 1.0, "output_bias_init": 0.0
+  },
+  "loss": {"mse_weight": 1.0, "cosine_weight": 1.0, "temporal_delta_weight": 0.5, "temporal_relation_weight": 0.1}
+}

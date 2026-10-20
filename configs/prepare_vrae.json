@@ -1,0 +1,9 @@
+{
+  "route": "vrae",
+  "omega_checkpoint": "weights/omega.pt",
+  "vrae_source": "third_party/V-RAE/src",
+  "dinov3_source": "third_party/dinov3",
+  "dinov3_checkpoint": "weights/dinov3_vitl16.pth",
+  "vrae_checkpoint": "weights/vrae.pt",
+  "pooling_weights": "ema"
+}

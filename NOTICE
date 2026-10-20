@@ -1,0 +1,9 @@
+Latent Bridge
+Copyright 2026 Latent Bridge contributors.
+
+This distribution contains the project's WAN and V-RAE Bridge implementations,
+alignment losses, and portable integration/training/evaluation utilities.
+It does not include pretrained weights, dataset assets, video-generator code,
+VGGT-Omega/DINOv3 implementations, or baseline method implementations.
+Those independently obtained components retain their own licenses and terms.
+See docs/DEPENDENCIES.md.
