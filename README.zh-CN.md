@@ -4,6 +4,8 @@ WAN / V-RAE 视频 latent -> Bridge -> 冻结的 VGGT-Omega -> 49 帧深度与�
 
 [English](README.md) | [数据格式](docs/DATA.md) | [评估协议](docs/EVALUATION.md)
 
+[项目主页](https://shuaizhang7.github.io/latent-bridge-page/) | [论文（arXiv:2610.28521）](https://arxiv.org/pdf/2610.28521)
+
 本版提供 Bridge 训练和几何推理，不包含视频生成、预训练权重或数据。
 许可证：[Apache-2.0](LICENSE)。
 

@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="https://shuaizhang7.github.io/latent-bridge-page/"><img src="https://img.shields.io/badge/Project-Page-2980b9" alt="Project page"></a>
-  <img src="https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b" alt="arXiv: coming soon">
+  <a href="https://arxiv.org/pdf/2610.28521"><img src="https://img.shields.io/badge/arXiv-2610.28521-b31b1b" alt="arXiv: 2610.28521"></a>
   <img src="https://img.shields.io/badge/Weights-Coming%20Soon-f39c12" alt="Model weights: coming soon">
 </p>
 
